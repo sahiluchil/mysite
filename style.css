@@ -21,6 +21,12 @@ h3 {
   font-size: 1.8em;
 }
 
+.logos {
+  max-width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
 h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
