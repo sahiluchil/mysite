@@ -41,12 +41,23 @@ li {
   color: royalblue;
 }
 
-#drop {
+.drop {
   color: red;
 }
 
-#institute {
-  color: green;
+.institute {
+  color: white;
+  text-align: center;
+  background-color: blue;
+  padding: 8px 0px;
+  margin: 0px 300px;
+  border-radius: 25px;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-out;
+}
+
+.institute:hover {
+  margin: 0px;
 }
 
 .topwall {
