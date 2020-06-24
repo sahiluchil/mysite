@@ -1,0 +1,62 @@
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 7em;
+  margin: 0.2px 0px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 3em;
+  margin: 0.2px 0px;
+  color: white;
+}
+
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+li {
+  padding: 6px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: royalblue;
+}
+
+#drop {
+  color: red;
+}
+
+#institute {
+  color: green;
+}
+
+.topwall {
+  background-image: url("topwall.jpg");
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adjust {
+  display: inline;
+}
