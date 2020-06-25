@@ -2,9 +2,9 @@ h1 {
   display: flex;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 7em;
+  font-size: 6.2em;
   margin: 0.2px 0px;
-  color: white;
+  color: #ffffff;
   justify-content: center;
   text-align: center;
 }
@@ -16,18 +16,28 @@ h2 {
   align-content: center;
   flex-wrap: wrap;
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 3em;
   margin: 0.2px 0px;
   color: white;
 }
 
 .topwall {
-  background-image: url("topwall.jpg");
+  background-color: #7f00ff;
   height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.edu {
+  background-color: #7f00ff;
+  color: white;
+}
+
+.contact {
+  background-color: #7f00ff;
+  color: white;
 }
 
 h3 {
@@ -40,6 +50,7 @@ h3 {
   max-width: 20%;
   display: flex;
   justify-content: space-between;
+  color: white;
 }
 
 h4 {
@@ -54,22 +65,26 @@ h5 {
   font-size: 1em;
 }
 
+ul {
+  list-style: none;
+}
+
 li {
   padding: 6px 0px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1em;
-  color: royalblue;
+  color: #2f2f2f;
+}
+
+.contacts {
+  color: white;
 }
 
 .drop {
-  color: red;
-}
-
-.institute {
   color: white;
   text-align: center;
-  background-color: blue;
+  background-color: #7f00ff;
   padding: 8px 0px;
   margin: 0px 300px;
   border-radius: 25px;
@@ -77,10 +92,30 @@ li {
   transition-timing-function: ease-out;
 }
 
-.institute:hover {
+.drop2 {
+  color: #2f2f2f;
+  text-align: center;
+  background-color: white;
+  padding: 8px 0px;
+  margin: 0px 300px;
+  border-radius: 25px;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-out;
+}
+
+.drop:hover {
+  margin: 0px;
+}
+
+.drop2:hover {
   margin: 0px;
 }
 
 .adjust {
   display: inline;
+}
+
+.freeg,
+.dip {
+  text-align: right;
 }
