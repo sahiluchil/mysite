@@ -30,14 +30,21 @@ h2 {
   justify-content: center;
 }
 
+.work {
+  padding-top: 16px;
+}
+
 .edu {
   background-color: #7f00ff;
   color: white;
+  padding: 16px 0px;
 }
 
 .contact {
   background-color: #7f00ff;
   color: white;
+  text-align: center;
+  padding-top: 16px;
 }
 
 h3 {
@@ -63,6 +70,7 @@ h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1em;
+  margin-bottom: 0;
 }
 
 ul {
@@ -105,10 +113,12 @@ li {
 
 .drop:hover {
   margin: 0px;
+  border-radius: 0;
 }
 
 .drop2:hover {
   margin: 0px;
+  border-radius: 0;
 }
 
 .adjust {
@@ -118,4 +128,8 @@ li {
 .freeg,
 .dip {
   text-align: right;
+}
+
+.skills {
+  padding: 16px 0px;
 }
