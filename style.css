@@ -160,3 +160,9 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.comp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
